@@ -40,4 +40,5 @@ a:hover {
 ul,
 ol {
   padding-left: 1rem;
+  list-style-type: disc;
 }

@@ -17,7 +17,7 @@ export default function ActivityItem({
         margin: "0.5rem 0",
       }}>
         <h3>{activity.name}</h3>
-        <p>{activity.description}</p>
+     
         
         {/* Delete button - Only show if user is logged in */}
         {showDelete && (
