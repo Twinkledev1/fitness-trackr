@@ -13,7 +13,7 @@ export function PageProvider({ children }) {
   return <PageContext.Provider value={value}>{children}</PageContext.Provider>;
 }
 
-export function usePage() {
+  export function usePage() {
   const context = useContext(PageContext);
   if (!context) throw Error("usePage must be used within PageProvider");
   return context;

@@ -2,8 +2,8 @@ import { useState } from "react";
 import useMutation from "../api/useMutation";
 
 export default function AddActivityForm() {
-  // State for the new activity form
-  const [formData, setFormData] = useState({
+ 
+  const [formData, setFormData] = useState({   //initialization
     name: "",
     description: ""
   });

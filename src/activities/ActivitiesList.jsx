@@ -34,9 +34,6 @@ export default function ActivitiesList({ activities }) {
 
   return (
     <section>
-      <h2>All Activities</h2>
-      {deleteError && <output style={{ color: "red" }}>Delete Error: {deleteError}</output>}
-      
       {activities && activities.length > 0 ? (
         <div>
           {activities.map((activity) => (
